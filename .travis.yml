@@ -1,1 +1,8 @@
 language: java
+script: mvn clean package
+jdk:
+- oraclejdk7
+ 
+notifications:
+  email:
+    - bednarz.hannover@gmail.com
